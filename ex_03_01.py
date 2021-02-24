@@ -1,4 +1,7 @@
-xh = input("Enter Hours: ")
-xr = input("Enter Rate: ")
-xp = float(xh) * float(xr)
+sh = input("Enter Hours: ")
+sr = input("Enter Rate: ")
+fh = float(sh)
+fr = float(sr)
+print(fh, fr)
+xp = fh * fr
 print("Pay:", xp)
